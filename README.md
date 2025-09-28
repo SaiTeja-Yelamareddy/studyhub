@@ -40,6 +40,10 @@ The platform includes the following pages:
 - Smooth animations and hover effects
 - Accessibility-friendly design
 - Fast loading with CDN-based resources
+## sample home page
+This image shows the homepage for "Study Hub," an educational website designed to help students find their ideal career path. It highlights key features like an aptitude qui![WhatsApp Image 2025-09-28 at 20 53 04_170fc898](https://github.com/user-attachments/assets/4229b599-4b9a-4d62-83c4-3f6ab950ab54)
+z, career exploration tools, and community support to provide personalized guidance.
+
 
 ## 📄 License
 
@@ -51,6 +55,7 @@ Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub/](https://github.
 
 
 **Made with ❤️ for the educational community**
+
 
 
 
