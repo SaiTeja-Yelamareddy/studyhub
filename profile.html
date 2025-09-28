@@ -1,0 +1,169 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Newsreader%3Awght%40400%3B500%3B700%3B800&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Profile - StudyHub</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#fcfaf8] group/design-root overflow-x-hidden" style='font-family: Newsreader, "Noto Sans", sans-serif;'>
+      <div class="layout-container flex h-full grow flex-col">
+        <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3ede7] px-10 py-3">
+          <div class="flex items-center gap-4 text-[#1b140e]">
+            <div class="size-4">
+              <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M36.7273 44C33.9891 44 31.6043 39.8386 30.3636 33.69C29.123 39.8386 26.7382 44 24 44C21.2618 44 18.877 39.8386 17.6364 33.69C16.3957 39.8386 14.0109 44 11.2727 44C7.25611 44 4 35.0457 4 24C4 12.9543 7.25611 4 11.2727 4C14.0109 4 16.3957 8.16144 17.6364 14.31C18.877 8.16144 21.2618 4 24 4C26.7382 4 29.123 8.16144 30.3636 14.31C31.6043 8.16144 33.9891 4 36.7273 4C40.7439 4 44 12.9543 44 24C44 35.0457 40.7439 44 36.7273 44Z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+            <h2 class="text-[#1b140e] text-lg font-bold leading-tight tracking-[-0.015em]">StudyPath</h2>
+          </div>
+          <div class="flex flex-1 justify-end gap-8">
+            <div class="flex items-center gap-9">
+              <a class="text-[#1b140e] text-sm font-medium leading-normal" href="#">Dashboard</a>
+              <a class="text-[#1b140e] text-sm font-medium leading-normal" href="#">Courses</a>
+              <a class="text-[#1b140e] text-sm font-medium leading-normal" href="#">Colleges</a>
+              <a class="text-[#1b140e] text-sm font-medium leading-normal" href="#">Community</a>
+            </div>
+            <button
+              class="flex max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-10 bg-[#f3ede7] text-[#1b140e] gap-2 text-sm font-bold leading-normal tracking-[0.015em] min-w-0 px-2.5"
+            >
+              <div class="text-[#1b140e]" data-icon="Bell" data-size="20px" data-weight="regular">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20px" height="20px" fill="currentColor" viewBox="0 0 256 256">
+                  <path
+                    d="M221.8,175.94C216.25,166.38,208,139.33,208,104a80,80,0,1,0-160,0c0,35.34-8.26,62.38-13.81,71.94A16,16,0,0,0,48,200H88.81a40,40,0,0,0,78.38,0H208a16,16,0,0,0,13.8-24.06ZM128,216a24,24,0,0,1-22.62-16h45.24A24,24,0,0,1,128,216ZM48,184c7.7-13.24,16-43.92,16-80a64,64,0,1,1,128,0c0,36.05,8.28,66.73,16,80Z"
+                  ></path>
+                </svg>
+              </div>
+            </button>
+            <div
+              class="bg-center bg-no-repeat aspect-square bg-cover rounded-full size-10"
+              style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuAd3VHLGr_3w3nYAabDVvqccqH1Py1eGS7ELkinqBsfniRLjqhsxMvIiaLKBqYJGXdwDXempAH1l3VE2GDDRS-hICCqEOhnP0PFvlDBJ_7dSztximoXFlXE7rpLKnn5it4ZZWK4FaMiiaYr__FyRPHpceMi8ZoSC6OOHu3BOMkiK0gJ75MHiwpfMww8gBtxemRreHaS4U2Q487SufQtjHvr7PQkS3ACz63ERWPFANwkmVDJ1c3ih9KueKTZ9ZDmmrb0z9F2rCVXCN0");'
+            ></div>
+          </div>
+        </header>
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="flex p-4 @container">
+              <div class="flex w-full flex-col gap-4 @[520px]:flex-row @[520px]:justify-between @[520px]:items-center">
+                <div class="flex gap-4">
+                  <div
+                    class="bg-center bg-no-repeat aspect-square bg-cover rounded-full min-h-32 w-32"
+                    style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuC9z6OdXv4j0BHwcLK2l4Qnu9T60-C6A908KVi5GvX3x3QKk73ERdEiO2diIZVwYvMQX7MGrGkMFwoC9opKX3hh07nRvAAf7tj2442GUwlaH2a4Gy3qp0x5S2FjjH4LqsJIOYZTLZo3t-BAuTtbCfJXa6kO4VF9oUsFxOkQ0vmI6xaqWB8Hg2N3n44Puy2XHlNGNlSw9PC8bRh7-yELalxh9lLQOKgGYUXF54paJ8YFzMEUM4Nury9QWyco_DerUpS-F-TsgLaCbjc");'
+                  ></div>
+                  <div class="flex flex-col justify-center">
+                    <p class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em]">Sophia Carter</p>
+                    <p class="text-[#97734e] text-base font-normal leading-normal">Aspiring Software Engineer</p>
+                    <p class="text-[#97734e] text-base font-normal leading-normal">Joined 2 months ago</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">My Goals</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7dbd0] bg-[#fcfaf8] p-4 items-center">
+                <div class="text-[#1b140e]" data-icon="Target" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M221.87,83.16A104.1,104.1,0,1,1,195.67,49l22.67-22.68a8,8,0,0,1,11.32,11.32l-96,96a8,8,0,0,1-11.32-11.32l27.72-27.72a40,40,0,1,0,17.87,31.09,8,8,0,1,1,16-.9,56,56,0,1,1-22.38-41.65L184.3,60.39a87.88,87.88,0,1,0,23.13,29.67,8,8,0,0,1,14.44-6.9Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#1b140e] text-base font-bold leading-tight">Get into a top tech company</h2>
+              </div>
+            </div>
+            <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">My Courses</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7dbd0] bg-[#fcfaf8] p-4 items-center">
+                <div class="text-[#1b140e]" data-icon="Code" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#1b140e] text-base font-bold leading-tight">Introduction to Programming</h2>
+              </div>
+            </div>
+            <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">My Colleges</h2>
+            <div class="grid grid-cols-[repeat(auto-fit,minmax(158px,1fr))] gap-3 p-4">
+              <div class="flex flex-1 gap-3 rounded-lg border border-[#e7dbd0] bg-[#fcfaf8] p-4 items-center">
+                <div class="text-[#1b140e]" data-icon="Student" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M226.53,56.41l-96-32a8,8,0,0,0-5.06,0l-96,32A8,8,0,0,0,24,64v80a8,8,0,0,0,16,0V75.1L73.59,86.29a64,64,0,0,0,20.65,88.05c-18,7.06-33.56,19.83-44.94,37.29a8,8,0,1,0,13.4,8.74C77.77,197.25,101.57,184,128,184s50.23,13.25,65.3,36.37a8,8,0,0,0,13.4-8.74c-11.38-17.46-27-30.23-44.94-37.29a64,64,0,0,0,20.65-88l44.12-14.7a8,8,0,0,0,0-15.18ZM176,120A48,48,0,1,1,89.35,91.55l36.12,12a8,8,0,0,0,5.06,0l36.12-12A47.89,47.89,0,0,1,176,120ZM128,87.57,57.3,64,128,40.43,198.7,64Z"
+                    ></path>
+                  </svg>
+                </div>
+                <h2 class="text-[#1b140e] text-base font-bold leading-tight">Stanford University</h2>
+              </div>
+            </div>
+            <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Roadmap</h2>
+            <div class="grid grid-cols-[40px_1fr] gap-x-2 px-4">
+              <div class="flex flex-col items-center gap-1 pt-3">
+                <div class="text-[#1b140e]" data-icon="Code" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e7dbd0] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col pt-3 pb-5"><p class="text-[#1b140e] text-base font-medium leading-normal">Complete Programming Course</p></div>
+              <div class="flex flex-col items-center gap-1">
+                <div class="w-[1.5px] bg-[#e7dbd0] h-2"></div>
+                <div class="text-[#1b140e]" data-icon="Folder" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,72H131.31L104,44.69A15.86,15.86,0,0,0,92.69,40H40A16,16,0,0,0,24,56V200.62A15.4,15.4,0,0,0,39.38,216H216.89A15.13,15.13,0,0,0,232,200.89V88A16,16,0,0,0,216,72ZM40,56H92.69l16,16H40ZM216,200H40V88H216Z"
+                    ></path>
+                  </svg>
+                </div>
+                <div class="w-[1.5px] bg-[#e7dbd0] h-2 grow"></div>
+              </div>
+              <div class="flex flex-1 flex-col pt-3 pb-5"><p class="text-[#1b140e] text-base font-medium leading-normal">Build a Portfolio Project</p></div>
+              <div class="flex flex-col items-center gap-1 pb-3">
+                <div class="w-[1.5px] bg-[#e7dbd0] h-2"></div>
+                <div class="text-[#1b140e]" data-icon="Briefcase" data-size="24px" data-weight="regular">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24px" height="24px" fill="currentColor" viewBox="0 0 256 256">
+                    <path
+                      d="M216,56H176V48a24,24,0,0,0-24-24H104A24,24,0,0,0,80,48v8H40A16,16,0,0,0,24,72V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V72A16,16,0,0,0,216,56ZM96,48a8,8,0,0,1,8-8h48a8,8,0,0,1,8,8v8H96ZM216,72v41.61A184,184,0,0,1,128,136a184.07,184.07,0,0,1-88-22.38V72Zm0,128H40V131.64A200.19,200.19,0,0,0,128,152a200.25,200.25,0,0,0,88-20.37V200ZM104,112a8,8,0,0,1,8-8h32a8,8,0,0,1,0,16H112A8,8,0,0,1,104,112Z"
+                    ></path>
+                  </svg>
+                </div>
+              </div>
+              <div class="flex flex-1 flex-col pt-3 pb-5"><p class="text-[#1b140e] text-base font-medium leading-normal">Apply to Internships</p></div>
+            </div>
+            <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Profile Completion</h2>
+            <div class="flex flex-col gap-3 p-4">
+              <div class="flex gap-6 justify-between">
+                <p class="text-[#1b140e] text-base font-medium leading-normal">Profile Completion</p>
+                <p class="text-[#1b140e] text-sm font-normal leading-normal">80%</p>
+              </div>
+              <div class="rounded bg-[#e7dbd0]"><div class="h-2 rounded bg-[#ea9948]" style="width: 80%;"></div></div>
+            </div>
+            <h2 class="text-[#1b140e] text-[22px] font-bold leading-tight tracking-[-0.015em] px-4 pb-3 pt-5">Career Guidance Progress</h2>
+            <div class="flex flex-col gap-3 p-4">
+              <div class="flex gap-6 justify-between">
+                <p class="text-[#1b140e] text-base font-medium leading-normal">Your journey is 40% complete - keep going!</p>
+                <p class="text-[#1b140e] text-sm font-normal leading-normal">40%</p>
+              </div>
+              <div class="rounded bg-[#e7dbd0]"><div class="h-2 rounded bg-[#ea9948]" style="width: 40%;"></div></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
