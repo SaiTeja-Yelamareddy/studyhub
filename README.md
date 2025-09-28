@@ -52,7 +52,7 @@ This image shows the homepage for "Study Hub," an educational website designed t
 ##  This includes in student profile that shows his enrolled courses their details and their reviews
 
 ![WhatsApp Image 2025-09-28 at 20 32 27_9d78f0db](https://github.com/user-attachments/assets/a832c0f1-b7e1-47da-a409-bfafde157fd5)
-## These images show the "Scholarships" page of a student guidance website, which lists available academic awards and grants. The page allows users to filter scholarships and provides a clear 3-step guide on the application process.
+## This is a feature of AI dashboard that suggests and recommends scholarships available regarding to student intrest.n process.
 
 ![WhatsApp Image 2025-09-28 at 20 33 37_b1513a15](https://github.com/user-attachments/assets/6c0dfc0b-b17c-4e36-8731-e28049f142c2)
 ![WhatsApp Image 2025-09-28 at 20 33 56_a8743e20](https://github.com/user-attachments/assets/d2558a83-9bd0-4eed-947a-dc683b363aae)
@@ -66,6 +66,7 @@ Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub/](https://github.
 
 
 **Made with ❤️ for the educational community**
+
 
 
 
