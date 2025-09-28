@@ -10,7 +10,7 @@ A comprehensive educational platform that connects students, educators, and inst
 - **Certifications**: Earn and showcase certifications to advance your career
 - **Course Selection**: Quickly find and select courses that match your interests
 - **Profile Management**: Manage your profile and track educational progress
-- **College Details**: Explore detailed information about colleges and universities
+- **College Details**: Explore detailed information about  govt colleges and universities
 
 ## 🚀 Live Demo
 
@@ -64,6 +64,7 @@ Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub/](https://github.
 
 
 **Made with ❤️ for the educational community**
+
 
 
 
