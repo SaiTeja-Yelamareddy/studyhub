@@ -43,6 +43,8 @@ The platform includes the following pages:
 ## sample home page
 This image shows the homepage for "Study Hub," an educational website designed to help students find their ideal career path. It highlights key features like an aptitude quiz, career exploration tools, and community support to provide personalized guidance.
 ![WhatsApp Image 2025-09-28 at 20 53 04_170fc898](https://github.com/user-attachments/assets/4229b599-4b9a-4d62-83c4-3f6ab950ab54)
+## Student personalised profile that includes his wishlist colleges, interests, his courses...etc
+<img width="1847" height="894" alt="Screenshot 2025-09-28 201710" src="https://github.com/user-attachments/assets/1c121e49-0a83-4b12-a36b-cd68d0317801" />
 
 
 ## 📄 License
@@ -55,6 +57,7 @@ Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub/](https://github.
 
 
 **Made with ❤️ for the educational community**
+
 
 
 
