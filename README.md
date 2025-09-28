@@ -55,7 +55,10 @@ This image shows the homepage for "Study Hub," an educational website designed t
 ## This is a feature of AI dashboard that suggests and recommends scholarships available regarding to student intrest.n process.
 
 ![WhatsApp Image 2025-09-28 at 20 33 37_b1513a15](https://github.com/user-attachments/assets/6c0dfc0b-b17c-4e36-8731-e28049f142c2)
-![WhatsApp Image 2025-09-28 at 20 33 56_a8743e20](https://github.com/user-attachments/assets/d2558a83-9bd0-4eed-947a-dc683b363aae)
+## The overview of the main features of this application.
+
+![WhatsApp Image 2025-09-28 at 21 41 10_47db0fd5](https://github.com/user-attachments/assets/afd39390-65f1-442e-96a6-7c12934d7487)
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
@@ -66,6 +69,7 @@ Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub/](https://github.
 
 
 **Made with ❤️ for the educational community**
+
 
 
 
