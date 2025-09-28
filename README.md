@@ -47,7 +47,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Project Link: [https://github.com/yourusername/studyhub]([https://github.com/yourusername/studyhub)
+Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub]([https://github.com/SaiTeja-Yelamareddy/studyhub)
 
 
 
