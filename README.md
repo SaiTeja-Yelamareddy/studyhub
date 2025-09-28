@@ -158,7 +158,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Project Link: [https://github.com/yourusername/stitch-course-community](https://github.com/yourusername/stitch-course-community)
+Project Link: [https://github.com/yourusername/stitch-course-community](https://github.com/yourusername/studyhub)
 
 ## 🙏 Acknowledgments
 
@@ -167,5 +167,6 @@ Project Link: [https://github.com/yourusername/stitch-course-community](https://
 - The educational community for inspiration and feedback
 
 ---
+
 
 **Made with ❤️ for the educational community**
