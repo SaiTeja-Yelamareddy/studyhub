@@ -14,7 +14,7 @@ A comprehensive educational platform that connects students, educators, and inst
 
 ## 🚀 Live Demo
 
-Visit the live website: [StudyHub](https://yourusername.github.io/studyhub)
+Visit the live website: [StudyHub](https://saiteja-yelamareddy.github.io/studyhub/)
 
 ## 📱 Pages
 
@@ -47,9 +47,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub]([https://github.com/SaiTeja-Yelamareddy/studyhub/)
+Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub/](https://github.com/SaiTeja-Yelamareddy/studyhub/)
 
 
 **Made with ❤️ for the educational community**
+
 
 
