@@ -47,8 +47,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub]([https://github.com/SaiTeja-Yelamareddy/studyhub)
-
+Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub]([https://github.com/SaiTeja-Yelamareddy/studyhub/)
 
 
 **Made with ❤️ for the educational community**
