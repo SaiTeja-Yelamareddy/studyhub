@@ -1,0 +1,51 @@
+<html>
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Be+Vietnam+Pro%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+
+    <title>Welcome - StudyHub</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  </head>
+  <body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#fcfaf8] group/design-root overflow-x-hidden" style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'>
+      <!-- Back to Home Button -->
+      <div class="absolute top-4 left-4 z-10">
+        <a href="index.html" class="flex items-center gap-2 px-4 py-2 bg-white/90 backdrop-blur-sm rounded-lg shadow-sm hover:bg-white transition-colors">
+          <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"/>
+          </svg>
+          <span class="text-sm font-medium">Back to Home</span>
+        </a>
+      </div>
+      <div class="layout-container flex h-full grow flex-col">
+        <div class="px-40 flex flex-1 justify-center py-5">
+          <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+            <div class="@container">
+              <div class="@[480px]:px-4 @[480px]:py-3">
+                <div
+                  class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-[#fcfaf8] @[480px]:rounded-xl min-h-80"
+                  style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDjAsJ7hmDmHVEB-NywFPXmbrSbdrUipFW6hvkiuLI7XsWtMiaWSTrW7ZAn8EU-MYXyJDVZQK0PYGfski8KW1JtNa6w8GLOBHilwczXqx_mmkwFR0M6qr9Nm8hw2iVJE4ZwVe4rLvbgWpxvf4DPQrVcj_7Pvs69Ita6awIrYhRMlME4xV0P0qiCVWTTbi8F40FyAtD4pob4k_kKnLVyx4mAt6tdFaJQGGFckNdqv-uFuAmmPBu5UR0YWiHSm89bRs0SpSDlw_ekoZQ");'
+                ></div>
+              </div>
+            </div>
+            <h1 class="text-[#1b140e] tracking-light text-[32px] font-bold leading-tight px-4 text-center pb-3 pt-6">Welcome, Liam!</h1>
+            <div class="flex px-4 py-3 justify-center">
+              <a href="dashboard.html"
+                class="flex min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-5 bg-[#e68019] text-[#1b140e] text-base font-bold leading-normal tracking-[0.015em] hover:bg-[#d4720f] transition-colors"
+              >
+                <span class="truncate">Start Your Journey</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="" />
+    <link
+      rel="stylesheet"
+      as="style"
+      onload="this.rel='stylesheet'"
+      href="https://fonts.googleapis.com/css2?display=swap&amp;family=Be+Vietnam+Pro%3Awght%40400%3B500%3B700%3B900&amp;family=Noto+Sans%3Awght%40400%3B500%3B700%3B900"
+    />
+    <title>StudyHub - Home</title>
+    <link rel="icon" type="image/x-icon" href="data:image/x-icon;base64," />
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <style>
+        .fade-in {
+            animation: fadeIn 0.8s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .hover-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .hover-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+    
+    <script>
+        // Navigation function for all pages
+        function navigateTo(page) {
+            window.location.href = page + '.html';
+        }
+    </script>
+
+</head>
+<body>
+    <div class="relative flex h-auto min-h-screen w-full flex-col bg-[#fcfaf8] group/design-root overflow-x-hidden" style='font-family: "Be Vietnam Pro", "Noto Sans", sans-serif;'>
+        <div class="layout-container flex h-full grow flex-col">
+            <!-- Header -->
+            <header class="flex items-center justify-between whitespace-nowrap border-b border-solid border-b-[#f3ede7] px-10 py-3">
+                <div class="flex items-center gap-4 text-[#1b140e]">
+                    <div class="size-4">
+                        <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M24 4L6 12V24C6 35.05 13.95 45.14 24 48C34.05 45.14 42 35.05 42 24V12L24 4Z" fill="currentColor"></path>
+                        </svg>
+                    </div>
+                    <h2 class="text-[#1b140e] text-lg font-bold leading-tight tracking-[-0.015em]">StudyHub</h2>
+                </div>
+                <div class="flex flex-1 justify-end gap-8">
+                    <div class="flex items-center gap-9">
+                        <a class="text-[#1b140e] text-sm font-medium leading-normal" href="#features">Features</a>
+                        <a class="text-[#1b140e] text-sm font-medium leading-normal" href="#about">About</a>
+                        <a class="text-[#1b140e] text-sm font-medium leading-normal" href="#" onclick="navigateTo('login_signup'); return false;">Login</a>
+                    </div>
+                </div>
+            </header>
+
+            <!-- Main Content -->
+            <main class="px-10 flex flex-1 justify-center py-5">
+                <div class="layout-content-container flex flex-col max-w-[960px] flex-1">
+                    <!-- Hero Section -->
+                    <div class="@container fade-in">
+                        <div class="@[480px]:px-4 @[480px]:py-3">
+                            <div
+                                class="w-full bg-center bg-no-repeat bg-cover flex flex-col justify-end overflow-hidden bg-[#fcfaf8] @[480px]:rounded-xl min-h-96"
+                                style='background-image: url("https://lh3.googleusercontent.com/aida-public/AB6AXuDjAsJ7hmDmHVEB-NywFPXmbrSbdrUipFW6hvkiuLI7XsWtMiaWSTrW7ZAn8EU-MYXyJDVZQK0PYGfski8KW1JtNa6w8GLOBHilwczXqx_mmkwFR0M6qr9Nm8hw2iVJE4ZwVe4rLvbgWpxvf4DPQrVcj_7Pvs69Ita6awIrYhRMlME4xV0P0qiCVWTTbi8F40FyAtD4pob4k_kKnLVyx4mAt6tdFaJQGGFckNdqv-uFuAmmPBu5UR0YWiHSm89bRs0SpSDlw_ekoZQ");'
+                            >
+                                <div class="bg-gradient-to-t from-black/50 to-transparent p-6">
+                                    <h1 class="text-white text-4xl font-bold leading-tight">Welcome to Your Educational Journey</h1>
+                                    <p class="text-white/90 text-lg mt-2">Connect, Learn, and Grow with our Course Community Platform</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Action Buttons -->
+                    <div class="flex px-4 py-6 justify-center gap-4 fade-in">
+                        <a href="#" onclick="navigateTo('animated_intro'); return false;" 
+                           class="flex min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-6 bg-[#e68019] text-[#1b140e] text-base font-bold leading-normal tracking-[0.015em] hover:bg-[#d4720f] transition-colors">
+                            <span class="truncate">Get Started</span>
+                        </a>
+                        <a href="#" onclick="navigateTo('dashboard'); return false;" 
+                           class="flex min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-6 bg-[#f3ede7] text-[#1b140e] text-base font-bold leading-normal tracking-[0.015em] hover:bg-[#e8ddd1] transition-colors">
+                            <span class="truncate">View Dashboard</span>
+                        </a>
+                    </div>
+
+                    <!-- Features Section -->
+                    <div id="features" class="py-12">
+                        <h2 class="text-[#1b140e] text-3xl font-bold leading-tight text-center mb-8">Platform Features</h2>
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div class="hover-card bg-white rounded-xl p-6 shadow-sm border border-[#f3ede7]">
+                                <div class="w-12 h-12 bg-[#e68019] rounded-lg flex items-center justify-center mb-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-[#1b140e] text-lg font-bold mb-2">Course Management</h3>
+                                <p class="text-[#97734e] text-sm">Explore and manage your courses with our comprehensive platform.</p>
+                                <a href="#" onclick="navigateTo('course_community'); return false;" class="text-[#e68019] text-sm font-medium mt-4 inline-block hover:underline">Learn More →</a>
+                            </div>
+
+                            <div class="hover-card bg-white rounded-xl p-6 shadow-sm border border-[#f3ede7]">
+                                <div class="w-12 h-12 bg-[#e68019] rounded-lg flex items-center justify-center mb-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C13.1 2 14 2.9 14 4C14 5.1 13.1 6 12 6C10.9 6 10 5.1 10 4C10 2.9 10.9 2 12 2ZM21 9V7L15 7V9C15 10.66 13.66 12 12 12S9 10.66 9 12V9L3 9V7C3 5.89 3.89 5 5 5H19C20.1 5 21 5.89 21 7V9Z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-[#1b140e] text-lg font-bold mb-2">Scholarships</h3>
+                                <p class="text-[#97734e] text-sm">Find and apply for scholarships to support your educational goals.</p>
+                                <a href="#" onclick="navigateTo('scholarships'); return false;" class="text-[#e68019] text-sm font-medium mt-4 inline-block hover:underline">Explore →</a>
+                            </div>
+
+                            <div class="hover-card bg-white rounded-xl p-6 shadow-sm border border-[#f3ede7]">
+                                <div class="w-12 h-12 bg-[#e68019] rounded-lg flex items-center justify-center mb-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M18 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V4C20 2.9 19.1 2 18 2ZM18 20H6V4H18V20ZM8 6H16V8H8V6ZM8 10H16V12H8V10ZM8 14H13V16H8V14Z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-[#1b140e] text-lg font-bold mb-2">Book Donations</h3>
+                                <p class="text-[#97734e] text-sm">Share and discover educational resources through our book donation system.</p>
+                                <a href="#" onclick="navigateTo('book_donation'); return false;" class="text-[#e68019] text-sm font-medium mt-4 inline-block hover:underline">Donate →</a>
+                            </div>
+
+                            <div class="hover-card bg-white rounded-xl p-6 shadow-sm border border-[#f3ede7]">
+                                <div class="w-12 h-12 bg-[#e68019] rounded-lg flex items-center justify-center mb-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M14 2H6C4.9 2 4 2.9 4 4V20C4 21.1 4.9 22 6 22H18C19.1 22 20 21.1 20 20V8L14 2ZM18 20H6V4H13V9H18V20Z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-[#1b140e] text-lg font-bold mb-2">Certifications</h3>
+                                <p class="text-[#97734e] text-sm">Earn and showcase your certifications to advance your career.</p>
+                                <a href="#" onclick="navigateTo('certifications'); return false;" class="text-[#e68019] text-sm font-medium mt-4 inline-block hover:underline">View Certs →</a>
+                            </div>
+
+                            <div class="hover-card bg-white rounded-xl p-6 shadow-sm border border-[#f3ede7]">
+                                <div class="w-12 h-12 bg-[#e68019] rounded-lg flex items-center justify-center mb-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 2C6.48 2 2 6.48 2 12S6.48 22 12 22 22 17.52 22 12 17.52 2 12 2ZM13 17H11V15H13V17ZM13 13H11V7H13V13Z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-[#1b140e] text-lg font-bold mb-2">Course Selection</h3>
+                                <p class="text-[#97734e] text-sm">Quickly find and select courses that match your interests and goals.</p>
+                                <a href="#" onclick="navigateTo('quick_course_selection'); return false;" class="text-[#e68019] text-sm font-medium mt-4 inline-block hover:underline">Select →</a>
+                            </div>
+
+                            <div class="hover-card bg-white rounded-xl p-6 shadow-sm border border-[#f3ede7]">
+                                <div class="w-12 h-12 bg-[#e68019] rounded-lg flex items-center justify-center mb-4">
+                                    <svg class="w-6 h-6 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path d="M12 12C14.21 12 16 10.21 16 8C16 5.79 14.21 4 12 4C9.79 4 8 5.79 8 8C8 10.21 9.79 12 12 12ZM12 14C9.33 14 4 15.34 4 18V20H20V18C20 15.34 14.67 14 12 14Z"/>
+                                    </svg>
+                                </div>
+                                <h3 class="text-[#1b140e] text-lg font-bold mb-2">Profile Management</h3>
+                                <p class="text-[#97734e] text-sm">Manage your profile and track your educational progress.</p>
+                                <a href="#" onclick="navigateTo('profile'); return false;" class="text-[#e68019] text-sm font-medium mt-4 inline-block hover:underline">My Profile →</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- About Section -->
+                    <div id="about" class="py-12 border-t border-[#f3ede7]">
+                        <h2 class="text-[#1b140e] text-3xl font-bold leading-tight text-center mb-8">About StudyHub</h2>
+                        <div class="max-w-3xl mx-auto text-center">
+                            <p class="text-[#97734e] text-lg mb-6">
+                                Our platform connects students, educators, and institutions to create a comprehensive educational ecosystem. 
+                                From course discovery to certification tracking, we provide all the tools you need for your educational journey.
+                            </p>
+                            <div class="flex justify-center gap-4 mt-8">
+                                <a href="#" onclick="navigateTo('course_college_details'); return false;" 
+                                   class="flex min-w-[140px] cursor-pointer items-center justify-center overflow-hidden rounded-xl h-12 px-6 bg-[#e68019] text-[#1b140e] text-base font-bold leading-normal tracking-[0.015em] hover:bg-[#d4720f] transition-colors">
+                                    <span class="truncate">Explore Colleges</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </main>
+
+            <!-- Footer -->
+            <footer class="border-t border-[#f3ede7] px-10 py-6">
+                <div class="flex justify-between items-center">
+                    <div class="text-[#97734e] text-sm">
+                        © 2024 StudyHub. All rights reserved.
+                    </div>
+                    <div class="flex gap-6">
+                        <a href="#" class="text-[#97734e] text-sm hover:text-[#1b140e] transition-colors">Privacy</a>
+                        <a href="#" class="text-[#97734e] text-sm hover:text-[#1b140e] transition-colors">Terms</a>
+                        <a href="#" class="text-[#97734e] text-sm hover:text-[#1b140e] transition-colors">Contact</a>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+</body>
+</html>
