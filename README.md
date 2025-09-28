@@ -46,6 +46,13 @@ This image shows the homepage for "Study Hub," an educational website designed t
 ## Student personalised profile that includes his wishlist colleges, interests, his courses...etc
 <img width="1847" height="894" alt="Screenshot 2025-09-28 201710" src="https://github.com/user-attachments/assets/1c121e49-0a83-4b12-a36b-cd68d0317801" />
 
+## Student personalised recommendations of courses and certifications provided as per the trend in technologies.
+<img width="1870" height="937" alt="Screenshot 2025-09-28 201820" src="https://github.com/user-attachments/assets/4e69c801-8549-4566-8afe-859422e98dec" />
+
+##  This includes in student profile that shows his enrolled courses their details and their reviews
+![WhatsApp Image 2025-09-28 at 20 32 27_9d78f0db](https://github.com/user-attachments/assets/a832c0f1-b7e1-47da-a409-bfafde157fd5)
+
+
 
 ## 📄 License
 
@@ -57,6 +64,7 @@ Project Link: [https://github.com/SaiTeja-Yelamareddy/studyhub/](https://github.
 
 
 **Made with ❤️ for the educational community**
+
 
 
 
